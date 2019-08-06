@@ -2,50 +2,50 @@ package com.stackroute;
 
 public class Actor {
 
-        private  String a_name;
-        private String a_gender;
-        private int a_age;
+        private  String actor_name;
+        private String actor_gender;
+        private int actor_age;
 
-    public Actor(String a_name, String a_gender, int a_age) {
-        this.a_name = a_name;
-        this.a_gender = a_gender;
-        this.a_age = a_age;
+    public Actor(String actor_name, String actor_gender, int actor_age) {
+        this.actor_name = actor_name;
+        this.actor_gender = actor_gender;
+        this.actor_age = actor_age;
     }
     public Actor()
     {
 
     }
 
-    public String getA_name() {
-        return a_name;
+    public String getActor_name() {
+        return actor_name;
     }
 
-    public void setA_name(String a_name) {
-        this.a_name = a_name;
+    public void setActor_name(String actor_name) {
+        this.actor_name = actor_name;
     }
 
-    public String getA_gender() {
-        return a_gender;
+    public String getActor_gender() {
+        return actor_gender;
     }
 
-    public void setA_gender(String a_gender) {
-        this.a_gender = a_gender;
+    public void setActor_gender(String actor_gender) {
+        this.actor_gender = actor_gender;
     }
 
-    public int getA_age() {
-        return a_age;
+    public int getActor_age() {
+        return actor_age;
     }
 
-    public void setA_age(int a_age) {
-        this.a_age = a_age;
+    public void setActor_age(int actor_age) {
+        this.actor_age = actor_age;
     }
 
     @Override
     public String toString() {
         return "Actor{" +
-                "a_name='" + a_name + '\'' +
-                ", a_gender='" + a_gender + '\'' +
-                ", a_age=" + a_age +
+                "actor_name='" + actor_name + '\'' +
+                ", actor_gender='" + actor_gender + '\'' +
+                ", actor_age=" + actor_age +
                 '}';
     }
 }

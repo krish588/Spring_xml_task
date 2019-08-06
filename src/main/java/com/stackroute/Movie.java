@@ -2,11 +2,11 @@ package com.stackroute;
 
 public class Movie {
 
-        private String m_name;
+        private String movie_name;
         private  Actor actor;
 
-    public Movie(String m_name, Actor actor) {
-        this.m_name = m_name;
+    public Movie(String movie_name, Actor actor) {
+        this.movie_name = movie_name;
         this.actor = actor;
     }
     public Movie()
@@ -14,12 +14,12 @@ public class Movie {
 
     }
 
-    public String getM_name() {
-        return m_name;
+    public String getMovie_name() {
+        return movie_name;
     }
 
-    public void setM_name(String m_name) {
-        this.m_name = m_name;
+    public void setMovie_name(String movie_name) {
+        this.movie_name = movie_name;
     }
 
     public Actor getActor() {
@@ -33,7 +33,7 @@ public class Movie {
     @Override
     public String toString() {
         return "Movie{" +
-                "m_name='" + m_name + '\'' +
+                "movie_name='" + movie_name + '\'' +
                 ", actor=" + actor +
                 '}';
     }
